@@ -1,0 +1,10 @@
+^C:\USERS\ALBERTS\DESKTOP\ULTRALIGHTEXAMPLE\ULTRALIGHT-QUICK-START\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -SC:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start -BC:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build --check-stamp-file C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,148 @@
+^C:\USERS\ALBERTS\DESKTOP\ULTRALIGHTEXAMPLE\ULTRALIGHT-QUICK-START\BUILD\CMAKEFILES\158333A8E675E3C6915483144F48CB61\ULTRALIGHTSDK-MKDIR.RULE
+setlocal
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E make_directory C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/SDK/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E make_directory C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/SDK/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E make_directory C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E make_directory C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E make_directory C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E make_directory C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E make_directory C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E touch C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALBERTS\DESKTOP\ULTRALIGHTEXAMPLE\ULTRALIGHT-QUICK-START\BUILD\CMAKEFILES\158333A8E675E3C6915483144F48CB61\ULTRALIGHTSDK-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Alberts\Desktop\UltralightExample\ultralight-quick-start\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -P C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/download-UltralightSDK.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -P C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/verify-UltralightSDK.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -P C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/extract-UltralightSDK.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E touch C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALBERTS\DESKTOP\ULTRALIGHTEXAMPLE\ULTRALIGHT-QUICK-START\BUILD\CMAKEFILES\158333A8E675E3C6915483144F48CB61\ULTRALIGHTSDK-UPDATE.RULE
+setlocal
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E touch C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALBERTS\DESKTOP\ULTRALIGHTEXAMPLE\ULTRALIGHT-QUICK-START\BUILD\CMAKEFILES\158333A8E675E3C6915483144F48CB61\ULTRALIGHTSDK-PATCH.RULE
+setlocal
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E touch C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALBERTS\DESKTOP\ULTRALIGHTEXAMPLE\ULTRALIGHT-QUICK-START\BUILD\CMAKEFILES\158333A8E675E3C6915483144F48CB61\ULTRALIGHTSDK-CONFIGURE.RULE
+setlocal
+cd C:\Users\Alberts\Desktop\UltralightExample\ultralight-quick-start\build\SDK
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E touch C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALBERTS\DESKTOP\ULTRALIGHTEXAMPLE\ULTRALIGHT-QUICK-START\BUILD\CMAKEFILES\158333A8E675E3C6915483144F48CB61\ULTRALIGHTSDK-BUILD.RULE
+setlocal
+cd C:\Users\Alberts\Desktop\UltralightExample\ultralight-quick-start\build\SDK
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E touch C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALBERTS\DESKTOP\ULTRALIGHTEXAMPLE\ULTRALIGHT-QUICK-START\BUILD\CMAKEFILES\158333A8E675E3C6915483144F48CB61\ULTRALIGHTSDK-INSTALL.RULE
+setlocal
+cd C:\Users\Alberts\Desktop\UltralightExample\ultralight-quick-start\build\SDK
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E touch C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALBERTS\DESKTOP\ULTRALIGHTEXAMPLE\ULTRALIGHT-QUICK-START\BUILD\CMAKEFILES\E8D93709A428ACA7D62FCECDC6A36A40\ULTRALIGHTSDK-COMPLETE.RULE
+setlocal
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E make_directory C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E touch C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/Release/UltralightSDK-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -E touch C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/UltralightSDK-prefix/src/UltralightSDK-stamp/Release/UltralightSDK-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALBERTS\DESKTOP\ULTRALIGHTEXAMPLE\ULTRALIGHT-QUICK-START\BUILD\CMAKEFILES\90DCE1097CE18BC81F0320D9A6E2B23B\ULTRALIGHTSDK.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ALBERTS\DESKTOP\ULTRALIGHTEXAMPLE\ULTRALIGHT-QUICK-START\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\cmake-3.22.1-windows-x86_64\bin\cmake.exe" -SC:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start -BC:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build --check-stamp-file C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

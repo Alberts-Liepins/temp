@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Alberts\Desktop\UltralightExample\ultralight-quick-start\build\CMakeFiles\90dce1097ce18bc81f0320d9a6e2b23b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{63439B46-10E9-316E-8816-1CC0145BE23C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

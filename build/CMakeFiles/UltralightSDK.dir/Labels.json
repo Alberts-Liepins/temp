@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/UltralightSDK"
+		},
+		{
+			"file" : "C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/90dce1097ce18bc81f0320d9a6e2b23b/UltralightSDK.rule"
+		},
+		{
+			"file" : "C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/e8d93709a428aca7d62fcecdc6a36a40/UltralightSDK-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/158333a8e675e3c6915483144f48cb61/UltralightSDK-build.rule"
+		},
+		{
+			"file" : "C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/158333a8e675e3c6915483144f48cb61/UltralightSDK-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/158333a8e675e3c6915483144f48cb61/UltralightSDK-download.rule"
+		},
+		{
+			"file" : "C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/158333a8e675e3c6915483144f48cb61/UltralightSDK-install.rule"
+		},
+		{
+			"file" : "C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/158333a8e675e3c6915483144f48cb61/UltralightSDK-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/158333a8e675e3c6915483144f48cb61/UltralightSDK-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Alberts/Desktop/UltralightExample/ultralight-quick-start/build/CMakeFiles/158333a8e675e3c6915483144f48cb61/UltralightSDK-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"UltralightSDK"
+		],
+		"name" : "UltralightSDK"
+	}
+}
